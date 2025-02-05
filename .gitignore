@@ -4,3 +4,8 @@
 # Except the following files
 !main.c
 !main.h
+!aucustics.h
+!humidity.h
+!network_setup.h
+!vibration.h
+!buzzer.h
