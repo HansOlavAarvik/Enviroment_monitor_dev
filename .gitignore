@@ -1,8 +1,10 @@
 # Ignore everything
 *
 
-# Except the following files
+# Don't ignore directories
+!*/
 
+# Don't ignore these specific files anywhere in the project
 !**/main.c
 !**/main.h
 !**/aucustics.h
@@ -10,3 +12,4 @@
 !**/network_setup.h
 !**/vibration.h
 !**/buzzer.h
+!**/temperature.h
