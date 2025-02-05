@@ -2,10 +2,12 @@
 *
 
 # Except the following files
-!main.c
-!main.h
-!aucustics.h
-!humidity.h
-!network_setup.h
-!vibration.h
-!buzzer.h
+
+!Core/Inc/main.h
+!Core/Inc/aucustics.h
+!Core/Inc/humidity.h
+!Core/Inc/network_setup.h
+!Core/Inc/vibration.h
+!Core/Inc/buzzer.h
+
+!Core/Src/main.c
