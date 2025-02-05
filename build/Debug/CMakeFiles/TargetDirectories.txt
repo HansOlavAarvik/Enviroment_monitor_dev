@@ -1,5 +1,0 @@
-C:/ST/VSC_Workspace/STM32_Test/build/Debug/CMakeFiles/STM32_Test.dir
-C:/ST/VSC_Workspace/STM32_Test/build/Debug/CMakeFiles/edit_cache.dir
-C:/ST/VSC_Workspace/STM32_Test/build/Debug/CMakeFiles/rebuild_cache.dir
-C:/ST/VSC_Workspace/STM32_Test/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
-C:/ST/VSC_Workspace/STM32_Test/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
