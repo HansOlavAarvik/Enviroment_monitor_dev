@@ -1,0 +1,7 @@
+{
+    "name": "STM32 GCC",
+    "compilers": {
+        "C": "arm-none-eabi-gcc",
+        "CXX": "arm-none-eabi-g++"
+    }
+}
