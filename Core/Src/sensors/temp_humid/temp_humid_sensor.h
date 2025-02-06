@@ -1,6 +1,6 @@
-#ifndef FILE_NAME_H
-#define FILE_NAME_H
+#ifndef TEMP_HUMID_SENSOR_H
+#define TEMP_HUMID_SENSOR_H
 
-// Your declarations here
-
+void read_humid_temp();
+    
 #endif
