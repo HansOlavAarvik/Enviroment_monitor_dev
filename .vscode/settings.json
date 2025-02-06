@@ -1,0 +1,9 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.generator": "Ninja",
+    "cmake.buildDirectory": "${workspaceFolder}/build"
+    "files.associations": {
+        "main.h": "c",
+        "temp_humid_sensor.h": "c"
+    }  
+}

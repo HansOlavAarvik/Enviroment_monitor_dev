@@ -43,3 +43,6 @@
 !**/ring_buffer.h
 !**/error_handling.c
 !**/error_handling.h
+
+!**/CMakeLists.txt
+!**/settings.json
