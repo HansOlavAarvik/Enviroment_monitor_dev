@@ -20,3 +20,15 @@ Enviromental monetring divice used for monitoring conditions in eletrical cabine
 
 
 # Pin layout:
+
+-Buzzer Trial Implementation
+PA5 = GPIO_Output Push No Pull-up and No Pull-down
+PA5 = CN7 pin nr 10
+GND = CN7 pin nr 8
+
+
+
+
+
+
+
