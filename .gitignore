@@ -1,45 +1,6 @@
 # Ignore everything
 *
 
-# Don't ignore directories
-!*/
-
-# Core files
-!**/main.c
-!**/main.h
-!**/system_config.h
-
-# Driver files
-!**/i2s_driver.c
-!**/i2s_driver.h
-!**/i2c_driver.c
-!**/i2c_driver.h
-!**/eth_driver.c
-!**/eth_driver.h
-
-# Sensor files
-!**/audio_sensor.c
-!**/audio_sensor.h
-!**/temp_humid_sensor.c
-!**/temp_humid_sensor.h
-!**/vibration_sensor.c
-!**/vibration_sensor.h
-!**/tof_sensor.c
-!**/tof_sensor.h
-
-# Peripheral files
-!**/led_controller.c
-!**/led_controller.h
-!**/buzzer_controller.c
-!**/buzzer_controller.h
-
-# Communication files
-!**/data_packet.h
-!**/ethernet_protocol.c
-!**/ethernet_protocol.h
-
-# Utility files
-!**/ring_buffer.c
-!**/ring_buffer.h
-!**/error_handling.c
-!**/error_handling.h
+# Except the following files
+!main.c
+!main.h
