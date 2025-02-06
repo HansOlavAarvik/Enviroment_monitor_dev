@@ -44,5 +44,6 @@
 !**/error_handling.c
 !**/error_handling.h
 
+# CMake files
 !**/CMakeLists.txt
 !**/settings.json
