@@ -28,22 +28,24 @@ target_sources(stm32cubemx INTERFACE
     ../../Core/Src/stm32h5xx_hal_msp.c
     ../../Drivers/BSP/STM32H5xx_Nucleo/stm32h5xx_nucleo.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c
-    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c
+    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c
+    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c
+    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c
+    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash_ex.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c
-    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c
-    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr_ex.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c
+    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c
+    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c
+    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart.c
     ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart_ex.c
-    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c
-    ../../Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c
     ../../Core/Src/system_stm32h5xx.c
     ../../Core/Src/sysmem.c
     ../../Core/Src/syscalls.c
