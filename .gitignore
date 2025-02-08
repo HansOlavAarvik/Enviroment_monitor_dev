@@ -18,7 +18,7 @@
 !**/eth_driver.h
 
 # Sensor files
-!**/audio_sensor.c
+!**Core/Src/sensors/audio/audio_sensor.c
 !**/audio_sensor.h
 !**/temp_humid_sensor.c
 !**/temp_humid_sensor.h

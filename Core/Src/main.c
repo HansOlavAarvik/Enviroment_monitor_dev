@@ -17,7 +17,7 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
+#include "../Inc/main.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -109,9 +109,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  // serial test 
-uint8_t UARTbuffer[] = "Hello World!\r\n";
-HAL_UART_Transmit(&huart2, &UARTbuffer, sizeof(UARTbuffer), 1000);
+
   /* USER CODE END 2 */
 
   /* Initialize leds */
@@ -144,7 +142,9 @@ HAL_UART_Transmit(&huart2, &UARTbuffer, sizeof(UARTbuffer), 1000);
 
 
 
-
+  // serial test 
+uint8_t UARTbuffer[] = "Hello World!\r\n";
+HAL_UART_Transmit(&huart2, &UARTbuffer, sizeof(UARTbuffer), 1000);
 
 
   if (AHT20_Read(&sensor_data) == HAL_OK) {
