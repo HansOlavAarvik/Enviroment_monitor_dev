@@ -1,5 +1,11 @@
 # Enviroment_monitor_dev
 
+## Setup
+   ```bash
+   git clone <your-repository>
+   cd <your-project>
+   python setup.py
+   ```
 
 ## short description of project
 Enviromental monetring divice used for monitoring conditions in eletrical cabinets. Records sound, vibrations, if the door is opened (with tof), inside temperature, inside humidity, outside humidity, and outside temperature. The sensors are controlled with a STM32. Power and communication is done over ethernet. There are also some LED's and a buzzer that gives feedback to on-site opperators. Data processing is done on server, only recording, transmission, recieving and and signals to LED's/buzzer is controlled by microcontroller.

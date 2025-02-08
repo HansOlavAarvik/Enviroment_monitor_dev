@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STM32 Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "./build/your-project.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "device": "STM32xxx",
+            "configFiles": [
+                "${env:OPENOCD_PATH}/interface/stlink.cfg",
+                "${env:OPENOCD_PATH}/target/stm32xxx.cfg"
+            ]
+        }
+    ]
+}
